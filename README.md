@@ -6,6 +6,6 @@ Pod. The Pod serviceaccount RoleBindings control its API access rights.
 
 It's basically docker/shell/k8s golfing to avoid publishing a kubeconfig
 
-¯\_(ツ)_/¯ 
+¯\\_(ツ)_/¯ 
 
 Public domain license - feel free to do what you want with this.
