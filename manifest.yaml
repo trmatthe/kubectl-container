@@ -21,3 +21,18 @@ subjects:
 - kind: ServiceAccount
   name: build
   namespace: kctl-build
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: kctl-build
+  labels:
+    run: test-kubectl
+  name: test-kubectl
+spec:
+  serviceAccountName: build
+  containers:
+  - image: trmatthe/kubectl:1
+    name: test-kubectl
+  restartPolicy: Never
+

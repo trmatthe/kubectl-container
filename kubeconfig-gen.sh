@@ -13,5 +13,5 @@ kubectl config use-context k8s
 kubectl config view --raw
 
 # this will fail until the pod.spec gets the non-default serviceaccount
-kubectl get nodes
+kubectl get pods -A
 sleep 3600          # I know this is bad, but it's useful whilst iterating
