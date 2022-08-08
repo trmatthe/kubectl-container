@@ -32,7 +32,7 @@ metadata:
 spec:
   serviceAccountName: build
   containers:
-  - image: trmatthe/kubectl:1
+  - image: trmatthe/kubectl:latest      #don't do this! I'm using latest so I can test this easily :)
     name: test-kubectl
   restartPolicy: Never
 
