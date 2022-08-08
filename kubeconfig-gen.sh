@@ -25,5 +25,6 @@ if [ "$#" -gt 0 ]
 then
   echo "TODO we have parameters, so handle the chained command"
 else
+  echo "Entering into infinite sleep at $(date)"
   sleep infinite
 fi
