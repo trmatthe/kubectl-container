@@ -8,4 +8,6 @@ It's basically docker/shell/k8s golfing to avoid publishing a kubeconfig
 
 ¯\\_(ツ)_/¯ 
 
+[Article I wrote about the process](https://kibble.cloud/tech/kubectl-in-container/kubectl-in-container.md.html)
+
 Public domain license - feel free to do what you want with this.
